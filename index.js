@@ -49,7 +49,7 @@ function generatePlane() {
 
   const colors = []
   for (let i = 0; i < planeMesh.geometry.attributes.position.count; i++) {
-    colors.push(0, 0.19, 0.4)
+    colors.push(0, 0.00, 0.4)
   }
 
   planeMesh.geometry.setAttribute(
